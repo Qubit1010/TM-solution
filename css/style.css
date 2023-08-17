@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0px;
   width: 100vw;
 }
@@ -71,7 +71,7 @@ header {
 /* background-right-asset */
 .background-right-asset {
   position: absolute;
-  left: 940px;
+  left: 930px;
   top: 150px;
 }
 .background-right-asset img {
@@ -82,14 +82,14 @@ header {
   position: absolute;
   top: 130px;
   left: 25px;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 /* backgroun-left-bottom */
 .backgroun-left-bottom-asset {
   position: absolute;
-  top: 536px;
-  left: 350px;
-  opacity: 0.3;
+  top: 560px;
+  left: 330px;
+  opacity: 0.2;
 }
 
 /* hero section  */
@@ -98,7 +98,7 @@ header {
   margin-left: 34px;
   margin-right: 34px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 /* grid-block */
 .hero-block-content {
@@ -157,4 +157,31 @@ header {
 }
 .right-block-image-second {
   width: 45%;
+}
+
+/* brief-info-block */
+.blockchain-brief-info {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* brief-info-block-content */
+.brief-info-block-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+}
+/*brief-info-block-heading */
+.brief-info-block-heading {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+/*brief-info-block-para */
+.brief-info-block-para {
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
 }
