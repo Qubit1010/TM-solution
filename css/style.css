@@ -3,9 +3,13 @@
   margin: 0px;
   padding: 0px;
 }
+:root {
+  --primary: #0686c8;
+  --secondary: black;
+}
 body {
   background-color: rgb(255, 255, 255);
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Cabin", sans-serif;
 }
 /* header for navbar  */
 header {
@@ -41,32 +45,56 @@ header {
   margin: 0px 15px;
   font-size: 18px;
   text-decoration: none;
-  color: black;
+  color: var(--secondary);
 }
 .nav-links ul li :hover {
-  color: #006dd0;
+  color: var(--primary);
 }
 /* header-right-block */
 .header-right-block {
-  /* margin-right: 23px; */
-
   padding: 0px 20px;
+  margin-right: 23px;
 }
 /* right-block-btn  */
 .right-block-btn {
   padding: 12px 18px;
-  font-size: 16px;
   border: none;
-  background-color: #0686c8;
+  background-color: var(--primary);
   border-radius: 3px;
 }
 .right-block-btn a {
   text-decoration: none;
+  font-size: 16px;
   color: rgb(255, 255, 255);
 }
+
+/* background-right-asset */
+.background-right-asset {
+  position: absolute;
+  left: 940px;
+  top: 150px;
+}
+.background-right-asset img {
+  width: 650px;
+}
+/* background-left-top-asset */
+.background-left-top-asset {
+  position: absolute;
+  top: 130px;
+  left: 25px;
+  opacity: 0.3;
+}
+/* backgroun-left-bottom */
+.backgroun-left-bottom-asset {
+  position: absolute;
+  top: 536px;
+  left: 350px;
+  opacity: 0.3;
+}
+
 /* hero section  */
 .hero-section {
-  margin-top: 200px;
+  margin-top: 140px;
   margin-left: 34px;
   margin-right: 34px;
   position: relative;
@@ -102,8 +130,7 @@ header {
 }
 .left-grid-block-btn {
   padding: 1.3rem 2rem;
-  background-color: #0686c8;
-
+  background-color: var(--primary);
   margin-top: 2rem;
   border: none;
   border-radius: 4px;
@@ -130,23 +157,4 @@ header {
 }
 .right-block-image-second {
   width: 45%;
-}
-/* background-assets  */
-.background-right-image {
-  position: absolute;
-  opacity: 1;
-  top: -34px;
-  left: 64%;
-  width: 36%;
-  /* margin-top: -75px; */
-}
-.background-rectangle-top {
-  position: absolute;
-  opacity: 0.3;
-}
-.background-rectangle-bottom {
-  position: absolute;
-  opacity: 0.3;
-  top: 70%;
-  left: 20%;
 }
