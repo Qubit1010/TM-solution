@@ -144,6 +144,13 @@ header {
 .right-grid-block {
   padding: 2rem;
 }
+
+.service-grid-right-block {
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: radial-gradient(circle at right bottom, #26b5fd, #a66bbd);
+}
 /* right-block-content  */
 .right-grid-block-content {
   display: flex;
@@ -212,24 +219,24 @@ header {
   line-height: 50px;
   margin-bottom: 2rem;
 }
-.grid-left-block-para{
+.grid-left-block-para {
   font-size: 17px;
   line-height: 30px;
   margin-bottom: 2rem;
 }
-.grid-left-block-btn{
-  padding:1rem 2.5rem ;
+.grid-left-block-btn {
+  padding: 1rem 2.5rem;
   border: none;
   border-radius: 3px;
-background-color: var(--primary);
+  background-color: var(--primary);
 }
 
-.grid-left-block-btn a{
+.grid-left-block-btn a {
   text-decoration: none;
   font-size: 16px;
   color: white;
 }
 /* grid-right-block */
-.grid-right-block-img{
-  width: 700px;
+.grid-right-block-img {
+  width: 100%;
 }
