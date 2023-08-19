@@ -1,4 +1,5 @@
 /* css reset  */
+/*! Note Use Rem Unit */
 * {
   margin: 0px;
   padding: 0px;
@@ -10,6 +11,7 @@
 body {
   background-color: rgb(255, 255, 255);
   font-family: "Cabin", sans-serif;
+  overflow-x: hidden;
 }
 /* header for navbar  */
 header {
@@ -71,33 +73,41 @@ header {
 /* background-right-asset */
 .background-right-asset {
   position: absolute;
-  left: 930px;
-  top: 150px;
+  left: 698px;
+  top: -17px;
+  z-index: -111;
 }
 .background-right-asset img {
   width: 650px;
+  position: absolute;
 }
 /* background-left-top-asset */
 .background-left-top-asset {
   position: absolute;
-  top: 130px;
-  left: 25px;
+  top: -14px;
+  left: -98px;
   opacity: 0.2;
 }
 /* backgroun-left-bottom */
 .backgroun-left-bottom-asset {
   position: absolute;
-  top: 560px;
-  left: 330px;
+  left: 241px;
+  bottom: 36px;
   opacity: 0.2;
+}
+
+.background-rectangle-bottom {
+  width: 150px;
 }
 
 /* hero section  */
 .hero-section {
-  margin-top: 140px;
-  margin-left: 34px;
-  margin-right: 34px;
   position: relative;
+  width: 90%;
+  height: 600px;
+  margin-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 1;
 }
 /* grid-block */
@@ -120,7 +130,7 @@ header {
 }
 .left-grid-block-heading {
   font-size: 52px;
-  line-height: 50px;
+  line-height: 72px;
   margin-top: 3rem;
 }
 .left-grid-block-para {
@@ -168,7 +178,7 @@ header {
 
 /* brief-info-block */
 .blockchain-brief-info {
-  margin-top: 250px;
+  margin-top: 8rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +208,8 @@ header {
 }
 /* service-content-block */
 .service-block-content {
-  padding: 3rem;
+  width: 90%;
+  margin: auto;
 }
 /* grid-block  */
 .service-grid-block {

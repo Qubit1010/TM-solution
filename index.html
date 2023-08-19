@@ -37,40 +37,42 @@
         </button>
       </div>
     </header>
-    <!-- background-assets-block  -->
-    <!-- background-right-asset -->
-    <div class="background-right-asset">
-      <img
-        class="background-right-image"
-        src="./images/Vector 50 (2).png"
-        alt=""
-      />
-    </div>
-    <!-- backgroun-left-top-asset -->
-    <div class="background-left-top-asset">
-      <img
-        class="background-rectangle-top"
-        src="./images/Rectangle 1.png"
-        alt=""
-      />
-    </div>
-    <!-- backgroun-left-bottom-asset -->
-    <div class="backgroun-left-bottom-asset">
-      <img
-        class="background-rectangle-bottom"
-        src="./images/Rectangle 2.png"
-        alt=""
-      />
-    </div>
+
     <!-- hero-section -->
     <div class="hero-section">
+      <!-- background-assets-block  -->
+      <!-- background-right-asset -->
+      <div class="background-right-asset">
+        <img
+          class="background-right-image"
+          src="./images/Vector 50 (2).png"
+          alt=""
+        />
+      </div>
+      <!-- backgroun-left-top-asset -->
+      <div class="background-left-top-asset">
+        <img
+          class="background-rectangle-top"
+          src="./images/Rectangle 1.png"
+          alt=""
+        />
+      </div>
+      <!-- backgroun-left-bottom-asset -->
+      <div class="backgroun-left-bottom-asset">
+        <img
+          class="background-rectangle-bottom"
+          src="./images/Rectangle 2.png"
+          alt=""
+        />
+      </div>
+
       <!-- hero-block-content -->
       <div class="hero-block-content">
         <!-- left-grid-block  -->
         <div class="left-grid-block">
           <div class="left-grid-block-content">
             <h1 class="left-grid-block-heading">
-              Everything you need to take your -- to the next level.
+              Everything you need to take your <span class="auto-type"></span>.
             </h1>
             <p class="left-grid-block-para">
               "The one-stop platform for business growth."
@@ -145,5 +147,38 @@
         </div>
       </div>
     </div>
+
+    <!-- Load Typing library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "brands",
+          "business",
+          " law firm",
+          "real estate venture",
+          "salon",
+          "gym",
+          "restaurant",
+          "shop",
+          "tech start-up",
+          "consultancy",
+          "e-commerce store",
+          "clinic",
+          "manufacturing unit",
+          "bakery",
+          "studio",
+          "hotel",
+          "farm",
+          "clinic",
+          "institute",
+          "studio",
+          "agency",
+        ],
+        typeSpeed: 100,
+      });
+    </script>
   </body>
 </html>
