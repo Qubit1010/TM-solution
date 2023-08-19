@@ -185,3 +185,51 @@ header {
   line-height: 26px;
   font-size: 16px;
 }
+/* Service block  */
+.blockchain-service-section {
+  margin-top: 170px;
+}
+/* service-content-block */
+.service-block-content {
+  padding: 3rem;
+}
+/* grid-block  */
+.service-grid-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+/* grid-left-block  */
+.service-grid-left-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+.grid-left-block-heading {
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 2rem;
+}
+.grid-left-block-para{
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+.grid-left-block-btn{
+  padding:1rem 2.5rem ;
+  border: none;
+  border-radius: 3px;
+background-color: var(--primary);
+}
+
+.grid-left-block-btn a{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+/* grid-right-block */
+.grid-right-block-img{
+  width: 700px;
+}
