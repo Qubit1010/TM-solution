@@ -59,7 +59,7 @@ header {
 }
 /* right-block-btn  */
 .right-block-btn {
-  padding: 12px 18px;
+  padding: 1rem 1rem;
   border: none;
   background-color: var(--primary);
   border-radius: 3px;
@@ -69,6 +69,7 @@ header {
   font-size: 16px;
   color: rgb(255, 255, 255);
 }
+
 
 /* background-right-asset */
 .background-right-asset {
@@ -150,6 +151,7 @@ header {
   color: white;
   font-size: 18px;
 }
+
 /* right-grid-block */
 .right-grid-block {
   padding: 2rem;
