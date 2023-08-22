@@ -74,9 +74,9 @@ header {
 /* background-right-asset */
 .background-right-asset {
   position: absolute;
-  left: 698px;
   top: -17px;
   z-index: -111;
+  right: 371px;
 }
 .background-right-asset img {
   width: 650px;
@@ -101,6 +101,9 @@ header {
   width: 150px;
 }
 
+.auto-type{
+  color: var(--primary);
+}
 /* hero section  */
 .hero-section {
   position: relative;
