@@ -223,10 +223,10 @@ header {
 
   margin: 2rem 0rem;
 }
-.left-small-block-icon{
+.small-block-icon{
   width:  5%;
 }
-.left-small-block-heading{
+.small-block-heading{
   font-size: 18px;
   margin-left: 1rem;
  
@@ -672,8 +672,8 @@ header {
   color: white;
 }
 /* bottom-top-right-block */
-.bottom-top-right-block {
-}
+/* .bottom-top-right-block {
+} */
 /* bottom-top-right-block-heading */
 .bottom-top-right-block-heading {
   font-size: 14px;
