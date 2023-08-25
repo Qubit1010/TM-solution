@@ -34,7 +34,7 @@ const timeline = gsap.timeline({
     start: "50% bottom",
     end: "bottom bottom",
     scrub: 5, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -44,7 +44,7 @@ const serviceTimeline = gsap.timeline({
     start: "top bottom",
     end: "bottom bottom",
     scrub: 5, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-    markers: true,
+    // markers: true,
   },
 });
 
