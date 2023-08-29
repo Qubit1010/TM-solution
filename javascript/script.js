@@ -99,3 +99,24 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+
+
+const triggerElement = document.querySelector('#content');
+const hiddenElement = document.querySelector('#b');
+
+triggerElement.addEventListener('mouseenter', () => {
+  hiddenElement.style.display = 'grid';
+});
+
+// triggerElement.addEventListener('mouseleave', () => {
+//   hiddenElement.style.display = 'none';
+// });
+
+hiddenElement.addEventListener('mouseenter', () => {
+  hiddenElement.style.display = 'grid';
+});
+
+hiddenElement.addEventListener('mouseleave', () => {
+  hiddenElement.style.display = 'none';
+});
