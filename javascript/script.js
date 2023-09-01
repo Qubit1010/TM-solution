@@ -109,10 +109,6 @@ triggerElement.addEventListener('mouseenter', () => {
   hiddenElement.style.display = 'grid';
 });
 
-// triggerElement.addEventListener('mouseleave', () => {
-//   hiddenElement.style.display = 'none';
-// });
-
 hiddenElement.addEventListener('mouseenter', () => {
   hiddenElement.style.display = 'grid';
 });
