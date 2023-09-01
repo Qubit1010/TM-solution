@@ -947,7 +947,7 @@ header {
   .right-block-image-second {
     width: 290px;
     height: 290px;
-    top: 185px;
+    top: 120px;
   }
 
   .right-block-image-first {
@@ -957,10 +957,39 @@ header {
   .left-grid-block-para {
     font-size: 13px;
   }
+  .hero-section {
+    height: 900px;
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 400px) {
+  #content {
+    display: none;
+  }
   .nav-links a span {
     right: -37px;
+  }
+  .grid-left-block-heading {
+    font-size: 30px;
+    line-height: 40px;
+    width: 70%;
+  }
+  .grid-left-block-para {
+    font-size: 15px;
+    width: 70%;
+  }
+  .background-right-asset {
+    display: none;
+  }
+  .bottom-top-right-block-images {
+    margin: 0rem;
+    flex-direction: column;
+  }
+  .service-section {
+    overflow-x: hidden;
+  }
+  .service-grid-left-block{
+    padding-left: 0rem;
   }
 }
