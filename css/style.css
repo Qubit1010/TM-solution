@@ -687,6 +687,8 @@ header {
   font-size: 13px;
 }
 
+
+ /**Media Quiries  */
 @media (max-width: 1250px) {
   .right-block-image-first {
     width: 190px;
@@ -967,9 +969,7 @@ header {
   #content {
     display: none;
   }
-  .nav-links a span {
-    right: -37px;
-  }
+
   .grid-left-block-heading {
     font-size: 30px;
     line-height: 40px;
