@@ -255,6 +255,8 @@ header {
   line-height: 26px;
   font-size: 16px;
 }
+
+
 /* Service block  */
 .service-section {
   margin-top: 15rem;
@@ -384,6 +386,21 @@ header {
 .service-grid-block:nth-of-type(10) .service-grid-right-block img {
   object-position: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer-block  */
 .footer-section {
@@ -687,8 +704,7 @@ header {
   font-size: 13px;
 }
 
-
- /**Media Quiries  */
+/**Media Quiries  */
 @media (max-width: 1250px) {
   .right-block-image-first {
     width: 190px;
@@ -989,7 +1005,7 @@ header {
   .service-section {
     overflow-x: hidden;
   }
-  .service-grid-left-block{
+  .service-grid-left-block {
     padding-left: 0rem;
   }
 }
