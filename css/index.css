@@ -256,7 +256,6 @@ header {
   font-size: 16px;
 }
 
-
 /* Service block  */
 .service-section {
   margin-top: 15rem;
@@ -387,21 +386,6 @@ header {
   object-position: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer-block  */
 .footer-section {
   margin-top: 244px;
@@ -422,7 +406,7 @@ header {
 }
 /* logo-block  */
 .left-block-logo {
-  width: 13rem;
+  width: 13rem; 
 }
 /* left-block-img  */
 .left-block-img {

@@ -43,7 +43,7 @@
 }
 /* background-asset-block-circle */
 .background-asset-block-circle {
-  width: 15%;
+  width: 15.3%;
 }
 /* blog-heading-img-block */
 .blog-heading-img-block {
@@ -55,8 +55,7 @@
 
 /* blog-content-section  */
 .blog-content-section {
-  border: 4px solid red;
-  padding:2rem 4rem;
+  padding: 2rem 4rem;
 }
 /* blog-content-grid-block  */
 .blog-content-grid-block {
@@ -67,58 +66,38 @@
 }
 /* blog-content-grid-block  */
 .blog-content-grid-left-block {
-  /* padding: 2rem 1rem; */
-}
-/* grid-left-top-block */
-.grid-left-top-block {
-  display: flex;
-  flex-direction: column;
-}
-/* left-top-info-block */
-.left-top-info-block {
-  margin: 0.5rem 0rem;
-}
-/* left-top-heading-block */
-.left-top-heading-block {
-  font-size: 18px;
-  line-height: 1.5rem;
-  color: black;
-}
-/* left-top-link-block */
-.left-top-link-block {
-  text-decoration: none;
-  font-size: 15px;
-  color: black;
-  font-weight: 500;
-}
-/* left-top-link-block:hover */
-.left-top-link-block:hover {
-  color: rgba(93, 90, 90, 0.826);
+  position: relative;
+  padding: 1rem;
 }
 
 /* grid-left-bottom-block */
-.grid-left-bottom-block {
-  margin: 2rem 0;
+.grid-left-content-block {
+  position: sticky;
+  top: 4rem;
 }
 /* left-bottom-heading-block */
-.left-bottom-heading-block {
+.left-content-heading-block {
   font-size: 23px;
   line-height: 1.5rem;
   color: black;
 }
 /* grid-left-bottom-block-images */
-.grid-left-bottom-block-images {
+.grid-left-content-block-images {
   margin: 1rem;
+}
+.grid-left-content-block-images img {
+  display: inline;
+  width: 10%;
+  margin: 0.5rem;
 }
 /* blog-content-grid-right-block */
 .blog-content-grid-right-block {
 }
 /* grid-right-block-top-content */
-.grid-right-block-top-content{
-
+.grid-right-block-content {
 }
 /* right-block-top-content-heading */
-.right-block-top-content-heading {
+.right-block-content-heading {
   font-size: 28px;
   line-height: 2.5rem;
   font-weight: 600;
@@ -126,7 +105,7 @@
   margin-bottom: 1rem;
 }
 /* right-block-top-content-para */
-.right-block-top-content-para{
+.right-block-content-para {
   font-size: 18px;
   line-height: 2rem;
   color: black;
