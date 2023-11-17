@@ -116,3 +116,5 @@ hiddenElement.addEventListener('mouseenter', () => {
 hiddenElement.addEventListener('mouseleave', () => {
   hiddenElement.style.display = 'none';
 });
+
+console.log("JJ")
