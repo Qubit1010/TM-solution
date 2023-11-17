@@ -5,6 +5,10 @@
   padding: 0;
   font-family: "Cabin", sans-serif;
 }
+:root {
+  --primary: #0686c8;
+  --secondary: black;
+}
 /** header for navbar  */
 header {
   background-color: rgb(255, 255, 255);
