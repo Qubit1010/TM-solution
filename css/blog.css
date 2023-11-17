@@ -52,7 +52,10 @@
   z-index: 2;
   bottom: -4px;
 }
-
+.blog-heading-img-block img{
+  width: 37.8%;
+  border-radius: 4px;
+}
 /* blog-content-section  */
 .blog-content-section {
   padding: 2rem 4rem;
@@ -98,7 +101,14 @@
 }
 /* right-block-top-content-heading */
 .right-block-content-heading {
-  font-size: 28px;
+  font-size: 30px;
+  line-height: 2.5rem;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 1rem;
+}
+.right-block-content-heading-second{
+  font-size: 25px;
   line-height: 2.5rem;
   font-weight: 600;
   color: black;
@@ -106,7 +116,8 @@
 }
 /* right-block-top-content-para */
 .right-block-content-para {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 2rem;
   color: black;
+  margin-bottom: 2rem;
 }

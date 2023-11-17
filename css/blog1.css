@@ -5,6 +5,7 @@
 /* blog-section */
 .blog-section {
   padding: 2rem;
+  margin-top: 8rem;
 }
 /* blog-container */
 .blog-container {
@@ -38,15 +39,19 @@
 /* grid-block-info-img */
 .grid-block-info-img {
   width: 100%;
+  border-radius: 10px;
 }
 /* grid-block-info-link */
 .grid-block-info-link {
   text-decoration: none;
 }
+.grid-block-info-link :hover {
+  color:#0686c8 ;
+}
 /* grid-block-info-link h1 */
 .grid-block-info-link h1 {
-  font-size: 26px;
-  line-height: 1.5rem;
+  font-size: 23px;
+  line-height: 1.8rem;
   color: black;
   text-align: start;
 }
