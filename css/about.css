@@ -110,6 +110,10 @@ header {
   color: rgb(255, 255, 255);
 }
 
+.small-block-icon {
+  width: 30px;
+}
+
 /** Our Vision Section */
 .our-vision-main-section {
   margin-top: 10rem;
