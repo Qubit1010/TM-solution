@@ -1,105 +1,20 @@
-/* Css reset  */
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+
+/* css reset  */
+/*! Note Use Rem Unit */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
-
-/** header for navbar  */
-header {
+:root {
+  --primary: #0686c8;
+  --secondary: black;
+}
+body {
   background-color: rgb(255, 255, 255);
-  box-shadow: 5px 5px 12px #8888887c;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  z-index: 2;
-  top: 0px;
-  width: 100vw;
+  font-family: "Cabin", sans-serif;
+  overflow-x: hidden;
 }
-/* header-left-block  */
-.header-left-block {
-  display: flex;
-  margin-left: 23px;
-  align-items: center;
-}
-/* logo-block */
-.logo {
-  width: 90px;
-}
-/* navbar-link */
-.nav-links {
-  margin: 0px 23px;
-  position: relative;
-}
-.nav-links ul {
-  display: flex;
-  list-style: none;
-}
-.nav-links a {
-  margin: 0px 20px;
-  font-size: 18px;
-  text-decoration: none;
-  color: var(--secondary);
-  font-weight: 600;
-  position: relative;
-}
-.nav-links ul li :hover {
-  color: var(--primary);
-}
-.nav-links a span {
-  position: absolute;
-  top: 4px;
-  right: -20px;
-}
-.nav-links-block {
-  position: absolute;
-  top: 60px;
-  left: 151px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  background-color: var(--primary);
-  padding: 1rem 3rem;
-  width: 60%;
-  border-radius: 10px;
-  display: none;
-}
-.nav-links-top h4 {
-  font-size: 14px;
-  /* color: white; */
-}
-.nav-links-each {
-  margin: 2rem 0px;
-  background-color: white;
-  padding: 1.5rem 1rem;
-  border-radius: 5px;
-  height: 75px;
-}
-.nav-links-each p {
-  /* color: white; */
-  font-size: 12px;
-}
-
-/* header-right-block */
-.header-right-block {
-  padding: 0px 20px;
-  margin-right: 23px;
-}
-/* right-block-btn  */
-.right-block-btn {
-  padding: 1rem 1rem;
-  border: none;
-  background-color: var(--primary);
-  border-radius: 3px;
-}
-.right-block-btn a {
-  text-decoration: none;
-  font-size: 16px;
-  color: rgb(255, 255, 255);
-}
-
-
-
 /* contact-block */
 .contact-block {
   padding: 5rem;
@@ -125,7 +40,6 @@ header {
   padding: 0.5rem;
 }
 
-
 /* grid-left-top-block-info */
 .grid-left-top-block-info {
   margin-bottom: 8rem;
@@ -145,8 +59,6 @@ header {
   line-height: 1.5rem;
   color: white;
 }
-
-
 
 /* grid-left-mid-block-info */
 .grid-left-mid-block-info {
@@ -181,7 +93,6 @@ header {
   font-weight: 400;
   color: white;
 }
-
 
 /* grid-left-block-bottom-info */
 .grid-left-block-bottom-info {
