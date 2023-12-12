@@ -101,7 +101,7 @@ body {
   align-items: center;
   padding: 0rem 3rem;
   margin-top: 10rem;
-  width: 43%;
+  width: 55%;
 }
 /* left-bottom-link-block */
 .left-bottom-link-block {
@@ -109,11 +109,11 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid #ececec00;
-  padding: 1.4rem 0rem;
+  padding: 1rem 1rem;
 }
 /* left-bottom-link-block-img */
 .left-bottom-link-block-img {
-  width: 33%;
+  width: 20px;
 }
 /* left-bottom-link-block:hover */
 .left-bottom-link-block:hover {

@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+/* css reset  */
+/*! Note Use Rem Unit */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  --primary: #0686c8;
+  --secondary: black;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Cabin", sans-serif;
+  overflow-x: hidden;
+}
+/* plans-section */
+.plans-section {
+  margin-top: 5rem;
+  background-color: var(--primary);
+}
+/* plans-container */
+.plans-container {
+  width: 80%;
+  margin: auto;
+}
+/* plans-back-black */
+.plans-back-black {
+  height: 350px;
+  padding: 3rem;
+  background: linear-gradient(180deg, #000000 0%, #0a0a0b00 100%);
+}
+/* plans-back-black h1 */
+.plans-back-black h1 {
+  font-size: 35px;
+  line-height: 2rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+/* plans-grid-block  */
+.plans-grid-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  top: -300px;
+  grid-gap: 25px;
+  padding: 2rem;
+}
+/* plans-grid-info-block */
+.plans-grid-info-block {
+  background-color: white;
+  border-radius: 4px;
+  padding:2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+/* grid-info-top-block */
+.grid-info-top-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+/* grid-info-top-block-first-hd */
+.grid-info-top-block-first-hd {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 20px;
+  color: green;
+}
+/* grid-info-top-block-first-hd-second */
+.grid-info-top-block-first-hd-second {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(94, 8, 155);
+}
+/* grid-info-top-block-first-hd-third */
+.grid-info-top-block-first-hd-third {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(176, 37, 194);
+}
+/* grid-info-top-block-second-hd */
+.grid-info-top-block-second-hd {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: green;
+}
+/* grid-info-top-block-second-hd-second */
+.grid-info-top-block-second-hd-second {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgb(94, 8, 155);
+}
+/* grid-info-top-block-second-hd-third */
+.grid-info-top-block-second-hd-third {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgb(176, 37, 194);
+}
+/* grid-info-top-block-para */
+.grid-info-top-block-para {
+  font-size: 14px;
+  line-height: 20px;
+  color: gray;
+  text-align: center;
+}
+/* grid-info-btn-block */
+.grid-info-btn-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* grid-info-btn-block a */
+.grid-info-btn-block a {
+  text-decoration: none;
+}
+/* btn */
+.btn {
+    cursor: pointer;
+  padding: 0.8rem 2rem;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+/* btn-second  */
+.btn-second {
+  background-color: rgb(94, 8, 155);
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+/* btn-third */
+.btn-third {
+  background-color: rgb(176, 37, 194);
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+/* grid-info-bottom-block */
+.grid-info-bottom-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1rem;
+  border-top: 1px solid black;
+}
+/* bottom-top-para-block */
+.bottom-top-para-block {
+  padding-right: 2rem;
+  padding-left: 1rem;
+  border-bottom: 1px solid black;
+  margin: 1rem;
+}
+/* bottom-top-para-block p  */
+.bottom-top-para-block p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+/* grid-info-bottom-bottom-block */
+.grid-info-bottom-bottom-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+/* grid-info-bottom-bottom-block p */
+.grid-info-bottom-bottom-block p {
+  padding-left: 2rem;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+}
