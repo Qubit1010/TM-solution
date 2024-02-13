@@ -86,7 +86,6 @@ serviceTimeline.from(".grid-right-block-img", {
  
 }, '');
 
-
 // smooth scroll via lenis
 const lenis = new Lenis();
 lenis.on("scroll", (e) => {
@@ -99,8 +98,6 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
-
-
 
 const triggerElement = document.querySelector('#content');
 const hiddenElement = document.querySelector('#b');
