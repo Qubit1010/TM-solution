@@ -1,6 +1,6 @@
 /** footer-block  */
 .footer-section {
-    margin-top: 244px;
+    margin-top: 124px;
     background-color: #24282f;
     padding: 1rem 4rem;
   }
@@ -22,7 +22,7 @@
   /* logo-block  */
   .left-block-logo {
     width: 13rem;
-    filter: invert(1);
+    /* filter: invert(1); */
   }
   /* left-block-img  */
   .left-block-img {

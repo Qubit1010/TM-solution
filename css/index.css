@@ -118,7 +118,7 @@ body {
   position: relative;
 }
 .right-block-image-first {
-  width: 250px;
+  width: 350px;
   height: 250px;
   object-fit: cover;
   position: absolute;
@@ -126,7 +126,16 @@ body {
   right: -80px;
   border-radius: 50px;
 }
-.right-block-image-second {
+
+.right-grid-block-content iframe{
+  position: absolute;
+  top: 113px;
+  left: -7px;
+  width:340px ;
+  height: 222px ;
+  border-radius: 5px;
+}
+/* .right-block-image-second {
   width: 550px;
   height: 450px;
   object-fit: contain;
@@ -135,7 +144,7 @@ body {
   left: -47px;
   object-position: 95% 66%;
   /* border-radius: 50px; */
-}
+ 
 
 /* brief-info-block */
 .brief-info-section {
